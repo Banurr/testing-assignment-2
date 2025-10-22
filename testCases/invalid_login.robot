@@ -11,5 +11,5 @@ Invalid Login Shows Error
     Wait Until Element Is Visible    xpath://h3[@data-test='error']    timeout=10s
     ${msg}=    Get Text    xpath://h3[@data-test='error']
     Should Contain    ${msg}    Epic sadface
-    Close Browser
+    Close Browser Session
 

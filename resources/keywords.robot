@@ -12,7 +12,6 @@ Open SauceDemo
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
 
-
 Login to SauceDemo
     Input Text    id:user-name    ${USERNAME}
     Input Text    id:password     ${PASSWORD}
