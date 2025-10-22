@@ -1,0 +1,115 @@
+SauceDemo Test Case Descriptions.
+
+Test Case 1: Buy Product Test
+
+Objective:
+Verify that a user can successfully purchase a product from the SauceDemo website.
+
+Steps:
+
+Open the SauceDemo site in a browser.
+Log in using valid credentials.
+Add “Sauce Labs Backpack” to the cart.
+Open the shopping cart and click Checkout.
+Enter customer information:
+
+First Name: John
+Last Name: Doe
+Postal Code: 12345
+
+Click Continue, then Finish to complete the order.
+
+Expected Result:
+Checkout completes successfully and a confirmation message “Thank you for your order!” appears.
+
+Test Case 2: Verify Tax And Total Calculation
+
+Objective:
+Ensure that the checkout total equals the sum of the item subtotal and tax.
+
+Steps:
+
+Log in to SauceDemo.
+Add “Sauce Labs Backpack” and “Sauce Labs Bolt T-Shirt” to the cart.
+Proceed to checkout and enter customer details.
+Verify that the total displayed equals item total plus tax.
+Click Finish to complete the order.
+
+Expected Result:
+The total matches subtotal plus tax and a confirmation message appears.
+
+Test Case 3: Verify Sorting And Checkout High Price
+
+Objective:
+Validate that sorting products from high to low displays correct price order and allows checkout of the highest-priced item.
+
+Steps:
+
+Log in to SauceDemo.
+Sort items by “Price (High → Low)”.
+Verify that product prices are in descending order.
+Add the top item to the cart and complete checkout.
+
+Expected Result:
+Sorting order is correct and checkout completes successfully.
+
+Test Case 4: Verify Logout Functionality
+
+Objective:
+Confirm that the user can log out and is redirected back to the login page.
+
+Steps:
+
+Log in to SauceDemo.
+Open the side menu and click Logout.
+Verify that the login screen appears again.
+
+Expected Result:
+User is logged out successfully and the login button is visible on the page.
+
+Test Case 5: Verify Invalid Login Shows Error
+
+Objective:
+Check that invalid credentials display an appropriate error message.
+
+Steps:
+
+Open SauceDemo.
+Enter invalid username or password.
+Click Login and observe the message.
+
+Expected Result:
+Error message “Epic sadface” appears and login is not allowed.
+
+Test Case 6: Verify Checkout Form Validation
+
+Objective:
+Verify that empty fields in the checkout form trigger validation errors.
+
+Steps:
+
+Log in to SauceDemo.
+Add a product to the cart.
+Go to checkout and leave form fields blank.
+
+Click Continue.
+
+Expected Result:
+Error message “Error: First Name is required.” appears and checkout cannot proceed until all fields are filled.
+
+Test Case 7: Verify Add And Remove Cart Items
+
+Objective:
+Ensure that adding and removing items updates the cart count correctly.
+
+Steps:
+
+Log in to SauceDemo.
+
+Add three products to the cart.
+Verify the cart badge shows “3”.
+Remove one product.
+Verify the cart badge updates to “2”.
+
+Expected Result:
+Cart badge updates accurately after each add or remove action.
