@@ -1,6 +1,0 @@
-Test Case 1: Sign Up
-1. Open Demo Blaze homepage
-2. Click 'Sign up'
-3. Enter username and password
-4. Submit
-5. Verify sign up success message
