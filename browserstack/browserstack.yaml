@@ -1,0 +1,22 @@
+userName: hanzohasashi_aDmV4o
+accessKey: GqhfzxgeuFUprMH4Wxyi
+
+platforms:
+  - os: "OS X"x
+    osVersion: "Monterey"
+    browserName: "Safari"
+    browserVersion: "15.0"
+
+  - os: "Windows"
+    osVersion: "11"
+    browserName: "Chrome"
+    browserVersion: "latest"
+
+  - os: "Windows"
+    osVersion: "11"
+    browserName: "Firefox"
+    browserVersion: "latest"
+
+browserstackLocal: false
+buildName: "Homework 3+4 UI Tests"
+projectName: "Automation Homework"
