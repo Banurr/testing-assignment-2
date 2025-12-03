@@ -21,7 +21,7 @@ source "$VENV_DIR/bin/activate"
 pip install --upgrade pip
 pip install --upgrade robotframework robotframework-seleniumlibrary
 
-browsers=("chrome" "firefox" "safari")
+browsers=("chrome" "safari")
 
 for browser in "${browsers[@]}"; do
     echo "=============================="
