@@ -5,7 +5,7 @@ Library    SeleniumLibrary
 ${URL}          https://www.saucedemo.com/
 ${BROWSER}      chrome
 
-${BROWSERSTACK}             true
+${BROWSERSTACK}             false
 ${BROWSERSTACK_USERNAME}    NONE
 ${BROWSERSTACK_ACCESS_KEY}  NONE
 
