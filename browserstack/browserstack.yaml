@@ -2,7 +2,7 @@ userName: hanzohasashi_aDmV4o
 accessKey: GqhfzxgeuFUprMH4Wxyi
 
 platforms:
-  - os: "OS X"x
+  - os: "OS X"
     osVersion: "Monterey"
     browserName: "Safari"
     browserVersion: "15.0"
